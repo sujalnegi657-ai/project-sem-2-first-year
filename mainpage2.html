@@ -123,9 +123,7 @@
             border-top: 1px dashed whitesmoke; 
         }
         
-        /* NOTE: The delivery info was missing from the product cards in your provided HTML. 
-           I have re-added the delivery-info paragraph to Product 1 as an example. 
-           You can add it back to the others if desired. */
+        
         .product-card .delivery-info {
             font-size: 0.9em;
             color: dodgerblue; 
@@ -151,9 +149,7 @@
             background-color: darkgoldenrod; 
         }
 
-        /* ----------------
-           5. Checkout Form Styling 
-           ---------------- */
+        
         .checkout-section {
             background-color: white;
             padding: 30px;
@@ -219,9 +215,7 @@
         }
 
 
-        /* ----------------
-           6. Footer 
-           ---------------- */
+        
         .site-footer {
             background-color: darkslategrey; 
             color: white;
@@ -361,14 +355,14 @@
     const orderButton =
         document.querySelector(".submit-button");
 
-    // ---------------- CREATE QUANTITY CONTROLS ----------------
+    
 
     cards.forEach((card, index) => {
 
         const addButton =
             card.querySelector(".add-to-cart");
 
-        // Create Quantity Section
+        
 
         const quantityControls =
             document.createElement("div");
