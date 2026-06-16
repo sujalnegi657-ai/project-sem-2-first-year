@@ -3,7 +3,7 @@ let totalPrice = 0;
 
 // Add product to cart
 function addToCart(productName, price) {
-
+ 
     cart++;
     totalPrice += price;
 
